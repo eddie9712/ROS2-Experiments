@@ -1,0 +1,80 @@
+[0.011s] Invoking command in '/home/eddie/ROS2-Experiments/Qos/build/qos': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/eddie/ROS2-Experiments/Qos/src/qos -DCMAKE_INSTALL_PREFIX=/home/eddie/ROS2-Experiments/Qos/install/qos
+[0.093s] -- The C compiler identification is GNU 7.5.0
+[0.151s] -- The CXX compiler identification is GNU 7.5.0
+[0.154s] -- Check for working C compiler: /usr/bin/cc
+[0.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.225s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.302s] -- Detecting C compile features
+[0.549s] -- Detecting C compile features - done
+[0.551s] -- Check for working CXX compiler: /usr/bin/c++
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.633s] -- Detecting CXX compiler ABI info
+[0.709s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Detecting CXX compile features
+[0.975s] -- Detecting CXX compile features - done
+[0.977s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.995s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.123s] -- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.135s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.162s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.163s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.164s] -- Looking for pthread.h
+[1.218s] -- Looking for pthread.h - found
+[1.218s] -- Looking for pthread_create
+[1.279s] -- Looking for pthread_create - not found
+[1.279s] -- Looking for pthread_create in pthreads
+[1.346s] -- Looking for pthread_create in pthreads - not found
+[1.347s] -- Looking for pthread_create in pthread
+[1.430s] -- Looking for pthread_create in pthread - found
+[1.431s] -- Found Threads: TRUE  
+[1.457s] -- Found rclcpp_components: 0.7.15 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[1.459s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[1.469s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.480s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.539s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.540s] -- Configured cppcheck include dirs: /home/eddie/ROS2-Experiments/Qos/src/qos/include
+[1.541s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.542s] -- Added test 'lint_cmake' to check CMake code style
+[1.543s] -- Added test 'uncrustify' to check C / C++ code style
+[1.543s] -- Added test 'xmllint' to check XML markup files
+[1.545s] -- Configuring done
+[1.550s] -- Generating done
+[1.551s] -- Build files have been written to: /home/eddie/ROS2-Experiments/Qos/build/qos
+[1.554s] Invoked command in '/home/eddie/ROS2-Experiments/Qos/build/qos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/eddie/ROS2-Experiments/Qos/src/qos -DCMAKE_INSTALL_PREFIX=/home/eddie/ROS2-Experiments/Qos/install/qos
+[1.556s] Invoking command in '/home/eddie/ROS2-Experiments/Qos/build/qos': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos -- -j8 -l8
+[1.588s] [35m[1mScanning dependencies of target testdeadline[0m
+[1.610s] [ 66%] [32mBuilding CXX object CMakeFiles/testdeadline.dir/src/testdeadline.cpp.o[0m
+[1.610s] [ 66%] [32mBuilding CXX object CMakeFiles/testdeadline.dir/src/common_nodes.cpp.o[0m
+[2.284s] [01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:[m[K In lambda function:
+[2.284s] [01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:31:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.284s]      [node = Talker.get()](rclcpp::QOSDeadlineOfferedInfo & [01;35m[Kevent[m[K) -> void
+[2.284s]                                                             [01;35m[K^~~~~[m[K
+[2.288s] [01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:[m[K In lambda function:
+[2.288s] [01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:39:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.288s]      [node = Listener.get()](rclcpp::QOSDeadlineRequestedInfo & [01;35m[Kevent[m[K) -> void
+[2.289s]                                                                 [01;35m[K^~~~~[m[K
+[3.403s] [100%] [32m[1mLinking CXX executable testdeadline[0m
+[3.516s] [100%] Built target testdeadline
+[3.525s] Invoked command in '/home/eddie/ROS2-Experiments/Qos/build/qos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos -- -j8 -l8
+[3.567s] Invoking command in '/home/eddie/ROS2-Experiments/Qos/build/qos': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos --target install -- -j8 -l8
+[3.625s] [100%] Built target testdeadline
+[3.641s] [36mInstall the project...[0m
+[3.653s] -- Install configuration: ""
+[3.654s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/lib/qos/testdeadline
+[3.655s] -- Set runtime path of "/home/eddie/ROS2-Experiments/Qos/install/qos/lib/qos/testdeadline" to ""
+[3.655s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/ament_index/resource_index/package_run_dependencies/qos
+[3.655s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/ament_index/resource_index/parent_prefix_path/qos
+[3.656s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/environment/ament_prefix_path.sh
+[3.656s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/environment/path.sh
+[3.656s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/local_setup.bash
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/local_setup.sh
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/local_setup.zsh
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/ament_index/resource_index/packages/qos
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/cmake/qosConfig.cmake
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/cmake/qosConfig-version.cmake
+[3.657s] -- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/package.xml
+[3.660s] Invoked command in '/home/eddie/ROS2-Experiments/Qos/build/qos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos --target install -- -j8 -l8

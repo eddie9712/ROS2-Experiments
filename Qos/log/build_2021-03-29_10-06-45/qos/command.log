@@ -1,0 +1,6 @@
+Invoking command in '/home/eddie/ROS2-Experiments/Qos/build/qos': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/eddie/ROS2-Experiments/Qos/src/qos -DCMAKE_INSTALL_PREFIX=/home/eddie/ROS2-Experiments/Qos/install/qos
+Invoked command in '/home/eddie/ROS2-Experiments/Qos/build/qos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/eddie/ROS2-Experiments/Qos/src/qos -DCMAKE_INSTALL_PREFIX=/home/eddie/ROS2-Experiments/Qos/install/qos
+Invoking command in '/home/eddie/ROS2-Experiments/Qos/build/qos': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos -- -j8 -l8
+Invoked command in '/home/eddie/ROS2-Experiments/Qos/build/qos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos -- -j8 -l8
+Invoking command in '/home/eddie/ROS2-Experiments/Qos/build/qos': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos --target install -- -j8 -l8
+Invoked command in '/home/eddie/ROS2-Experiments/Qos/build/qos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/eddie/ROS2-Experiments/Qos/build/qos --target install -- -j8 -l8

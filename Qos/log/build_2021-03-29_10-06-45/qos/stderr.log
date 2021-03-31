@@ -1,0 +1,8 @@
+[01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:[m[K In lambda function:
+[01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:31:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     [node = Talker.get()](rclcpp::QOSDeadlineOfferedInfo & [01;35m[Kevent[m[K) -> void
+                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:[m[K In lambda function:
+[01m[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:39:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     [node = Listener.get()](rclcpp::QOSDeadlineRequestedInfo & [01;35m[Kevent[m[K) -> void
+                                                                [01;35m[K^~~~~[m[K

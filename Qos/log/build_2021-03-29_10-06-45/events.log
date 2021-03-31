@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000801] (qos) JobQueued: {'identifier': 'qos', 'dependencies': OrderedDict()}
+[0.000846] (qos) JobStarted: {'identifier': 'qos'}
+[0.008503] (qos) JobProgress: {'identifier': 'qos', 'progress': 'cmake'}
+[0.008968] (qos) Command: {'cmd': ['/usr/bin/cmake', '/home/eddie/ROS2-Experiments/Qos/src/qos', '-DCMAKE_INSTALL_PREFIX=/home/eddie/ROS2-Experiments/Qos/install/qos'], 'cwd': '/home/eddie/ROS2-Experiments/Qos/build/qos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eddie'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/eddie/ROS2-Experiments/Qos/install'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/eddie'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1458'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d41bc4b161008da6b566faf960608630'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/eddie/ROS2-Experiments/Qos/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'eddie'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:36059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'eddie'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/eddie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '64af3486a80140adae4b201f6e46b960'), ('SESSION_MANAGER', 'local/eddie-HP-Pavilion-Laptop-15-cs3xxx:@/tmp/.ICE-unix/1528,unix/eddie-HP-Pavilion-Laptop-15-cs3xxx:/tmp/.ICE-unix/1528'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba45a8c6_15b8_49f1_a4ee_24650e6f94f7'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/eddie/ROS2-Experiments/Qos/build/qos'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d41bc4b161008da6b566faf960608630'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.094108] (qos) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099991] (-) TimerEvent: {}
+[0.151800] (qos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.154374] (qos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200212] (-) TimerEvent: {}
+[0.224969] (qos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.225758] (qos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.297583] (qos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.300291] (-) TimerEvent: {}
+[0.303140] (qos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.400434] (-) TimerEvent: {}
+[0.500841] (-) TimerEvent: {}
+[0.549859] (qos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.551790] (qos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600980] (-) TimerEvent: {}
+[0.633109] (qos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.633585] (qos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701140] (-) TimerEvent: {}
+[0.709748] (qos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.712826] (qos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.801245] (-) TimerEvent: {}
+[0.901576] (-) TimerEvent: {}
+[0.975890] (qos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.977566] (qos) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.996003] (qos) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.996167] (qos) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001648] (-) TimerEvent: {}
+[1.101890] (-) TimerEvent: {}
+[1.123285] (qos) StdoutLine: {'line': b'-- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.136261] (qos) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.162626] (qos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.163618] (qos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.164466] (qos) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.202050] (-) TimerEvent: {}
+[1.218786] (qos) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.219236] (qos) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.279202] (qos) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.279483] (qos) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.302206] (-) TimerEvent: {}
+[1.346973] (qos) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.347458] (qos) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.402419] (-) TimerEvent: {}
+[1.430987] (qos) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.431801] (qos) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.457478] (qos) StdoutLine: {'line': b'-- Found rclcpp_components: 0.7.15 (/opt/ros/dashing/share/rclcpp_components/cmake)\n'}
+[1.459954] (qos) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[1.470043] (qos) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[1.480838] (qos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[1.502554] (-) TimerEvent: {}
+[1.540065] (qos) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[1.540968] (qos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.541160] (qos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/eddie/ROS2-Experiments/Qos/src/qos/include\n'}
+[1.541962] (qos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.542717] (qos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.543402] (qos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.543923] (qos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.545800] (qos) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.551107] (qos) StdoutLine: {'line': b'-- Generating done\n'}
+[1.551965] (qos) StdoutLine: {'line': b'-- Build files have been written to: /home/eddie/ROS2-Experiments/Qos/build/qos\n'}
+[1.554432] (qos) CommandEnded: {'returncode': 0}
+[1.555112] (qos) JobProgress: {'identifier': 'qos', 'progress': 'build'}
+[1.555784] (qos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eddie/ROS2-Experiments/Qos/build/qos', '--', '-j8', '-l8'], 'cwd': '/home/eddie/ROS2-Experiments/Qos/build/qos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eddie'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/eddie/ROS2-Experiments/Qos/install'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/eddie'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1458'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d41bc4b161008da6b566faf960608630'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/eddie/ROS2-Experiments/Qos/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'eddie'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:36059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'eddie'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/eddie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '64af3486a80140adae4b201f6e46b960'), ('SESSION_MANAGER', 'local/eddie-HP-Pavilion-Laptop-15-cs3xxx:@/tmp/.ICE-unix/1528,unix/eddie-HP-Pavilion-Laptop-15-cs3xxx:/tmp/.ICE-unix/1528'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba45a8c6_15b8_49f1_a4ee_24650e6f94f7'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/eddie/ROS2-Experiments/Qos/build/qos'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d41bc4b161008da6b566faf960608630'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[1.588692] (qos) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testdeadline\x1b[0m\n'}
+[1.602697] (-) TimerEvent: {}
+[1.610648] (qos) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/testdeadline.dir/src/testdeadline.cpp.o\x1b[0m\n'}
+[1.610854] (qos) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/testdeadline.dir/src/common_nodes.cpp.o\x1b[0m\n'}
+[1.702863] (-) TimerEvent: {}
+[1.803199] (-) TimerEvent: {}
+[1.903536] (-) TimerEvent: {}
+[2.003880] (-) TimerEvent: {}
+[2.104235] (-) TimerEvent: {}
+[2.204518] (-) TimerEvent: {}
+[2.284524] (qos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.284703] (qos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:31:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kevent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.284770] (qos) StderrLine: {'line': b'     [node = Talker.get()](rclcpp::QOSDeadlineOfferedInfo & \x1b[01;35m\x1b[Kevent\x1b[m\x1b[K) -> void\n'}
+[2.284825] (qos) StderrLine: {'line': b'                                                            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.289028] (qos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.289194] (qos) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eddie/ROS2-Experiments/Qos/src/qos/src/testdeadline.cpp:39:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kevent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.289266] (qos) StderrLine: {'line': b'     [node = Listener.get()](rclcpp::QOSDeadlineRequestedInfo & \x1b[01;35m\x1b[Kevent\x1b[m\x1b[K) -> void\n'}
+[2.289322] (qos) StderrLine: {'line': b'                                                                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.304692] (-) TimerEvent: {}
+[2.405049] (-) TimerEvent: {}
+[2.505409] (-) TimerEvent: {}
+[2.605731] (-) TimerEvent: {}
+[2.706061] (-) TimerEvent: {}
+[2.806395] (-) TimerEvent: {}
+[2.906717] (-) TimerEvent: {}
+[3.007063] (-) TimerEvent: {}
+[3.107397] (-) TimerEvent: {}
+[3.207738] (-) TimerEvent: {}
+[3.308065] (-) TimerEvent: {}
+[3.403488] (qos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable testdeadline\x1b[0m\n'}
+[3.408233] (-) TimerEvent: {}
+[3.508610] (-) TimerEvent: {}
+[3.517073] (qos) StdoutLine: {'line': b'[100%] Built target testdeadline\n'}
+[3.525135] (qos) CommandEnded: {'returncode': 0}
+[3.553645] (qos) JobProgress: {'identifier': 'qos', 'progress': 'install'}
+[3.567853] (qos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eddie/ROS2-Experiments/Qos/build/qos', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/eddie/ROS2-Experiments/Qos/build/qos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eddie'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1623'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/eddie/ROS2-Experiments/Qos/install'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/eddie'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1458'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d41bc4b161008da6b566faf960608630'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/eddie/ROS2-Experiments/Qos/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'eddie'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:36059'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'eddie'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/eddie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '64af3486a80140adae4b201f6e46b960'), ('SESSION_MANAGER', 'local/eddie-HP-Pavilion-Laptop-15-cs3xxx:@/tmp/.ICE-unix/1528,unix/eddie-HP-Pavilion-Laptop-15-cs3xxx:/tmp/.ICE-unix/1528'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba45a8c6_15b8_49f1_a4ee_24650e6f94f7'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.154'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/eddie/ROS2-Experiments/Qos/build/qos'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d41bc4b161008da6b566faf960608630'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[3.608776] (-) TimerEvent: {}
+[3.625817] (qos) StdoutLine: {'line': b'[100%] Built target testdeadline\n'}
+[3.641823] (qos) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.653710] (qos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.654251] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/lib/qos/testdeadline\n'}
+[3.655429] (qos) StdoutLine: {'line': b'-- Set runtime path of "/home/eddie/ROS2-Experiments/Qos/install/qos/lib/qos/testdeadline" to ""\n'}
+[3.655858] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/ament_index/resource_index/package_run_dependencies/qos\n'}
+[3.656085] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/ament_index/resource_index/parent_prefix_path/qos\n'}
+[3.656453] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/environment/ament_prefix_path.sh\n'}
+[3.656748] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/environment/path.sh\n'}
+[3.657008] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/local_setup.bash\n'}
+[3.657223] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/local_setup.sh\n'}
+[3.657437] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/local_setup.zsh\n'}
+[3.657638] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/ament_index/resource_index/packages/qos\n'}
+[3.657841] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.657989] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/cmake/qosConfig.cmake\n'}
+[3.658113] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/cmake/qosConfig-version.cmake\n'}
+[3.658232] (qos) StdoutLine: {'line': b'-- Installing: /home/eddie/ROS2-Experiments/Qos/install/qos/share/qos/package.xml\n'}
+[3.660689] (qos) CommandEnded: {'returncode': 0}
+[3.699440] (qos) JobEnded: {'identifier': 'qos', 'rc': 0}
+[3.700474] (-) EventReactorShutdown: {}
